@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <!-- place your view here -->
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:orientation="vertical">
+
+           <GridView
+               android:id="@+id/subjectsgird"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="25dp"
+               android:columnWidth="200dp"
+               android:gravity="center"
+               android:horizontalSpacing="15dp"
+               android:numColumns="2"
+               android:scrollbars="none"
+               android:stretchMode="columnWidth"
+               android:verticalSpacing="15dp"
+               android:visibility="visible"></GridView>
+
+
+               <ImageView
+                   android:id="@+id/imgNoInternet"
+                   android:layout_width="250dp"
+                   android:layout_height="250dp"
+                   android:layout_marginLeft="60dp"
+                   android:layout_marginTop="150dp"
+                   android:src="@drawable/nointernet"
+                   android:visibility="gone" />
+
+       </LinearLayout>
+</LinearLayout>

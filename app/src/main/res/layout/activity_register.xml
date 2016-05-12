@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/profileicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="10dp"
+            android:text="New to SVS?"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtUsernameRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:hint="Username"
+            android:textColorHint="#CCC"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtEmailRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:hint="Email Address"
+            android:textColorHint="#CCC"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtHallTicketRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:hint="Hall Ticket No"
+            android:inputType="text"
+            android:textColorHint="#CCC"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/txtMobileRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:hint="Mobile No"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:textColorHint="#CCC"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spnCourse"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_marginTop="5dp"
+            android:entries="@array/courses">
+
+        </Spinner>
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="SIGN UP"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lblSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:text="Already have account?  Login"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
+
+

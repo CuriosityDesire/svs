@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">SVS</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_profile</item>
+        <item>@string/title_logout</item>
+    </string-array>
+    <string-array name="nav_drawer_icons">
+        <item>@drawable/ui_phone</item>
+        <item>@drawable/ui_address</item>
+        <item>@drawable/ui_dob</item>
+    </string-array>
+    <string-array name="semester">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="courses">
+        <item>BCA</item>
+        <item>MCA</item>
+        <item>Bsc.IT</item>
+        <item>Msc.IT</item>
+        <item>B.tech</item>
+        <item>M.tech</item>
+        <item>BBA</item>
+        <item>MBA</item>
+        <item>MBBS</item>
+        <item>BDS</item>
+        <item>Entrepreneurship</item>
+        <item>Electrical engineering</item>
+
+    </string-array>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_profile">Student Profile</string>
+    <string name="title_home">Home</string>
+    <string name="title_logout">Logout</string>
+    <string name="nav_item_home">Subjects</string>
+    <string name="nav_item_profile">Profile</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="title_activity_news_popup">News</string>
+    <string name="select_picture">select</string>
+
+
+</resources>

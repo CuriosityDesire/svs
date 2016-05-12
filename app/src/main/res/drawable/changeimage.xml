@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:drawable="@drawable/uploadiconlight"/>
+    <item android:state_pressed="true" android:drawable="@drawable/uploadicon" />
+    <item android:drawable="@drawable/uploadiconlight" />  //means normal
+</selector>
